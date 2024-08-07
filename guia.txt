@@ -1,0 +1,51 @@
+1) Instalaciones npm
+ npm create vite@latest .
+    npm install
+
+ npm install react-router-dom
+ npm install bootstrap@5.3.3
+ npm install react-icons
+ npm install chart.js
+ npm install primereact
+ npm install primereact
+
+2) configuraciones  
+    bootstrap 
+    en index.html agregar estas lineas 
+        despues del </title> 
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        andes del </body>
+        <script type="module" src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+
+    limpiar app.css, index.css 
+    limpiar el archivo app.jsx y aplicar el rafce 
+    agregar fragmen
+    <>
+        <h3 className="text-center py-4">Hola Mundo</h3>
+    </>
+
+    Color de fondo y color del texto por defecto en el index.html
+         <body class="bg-dark text-white-50">
+
+    probar iconos en app.jsx
+       
+           import { FaTachometerAlt } from "react-icons/fa";
+
+            const App = () => {
+            return (
+                <>
+                    <div >
+                        <h3 className="text-center py-4">Hola Mundo</h3>
+                    </div> 
+                    <div className='text-center'>
+                       <FaTachometerAlt /> 
+                    </div>
+            
+
+                </>
+            )
+            }
+
+            export default App
+
+3) crear las carpetas pages y components dentro de src
